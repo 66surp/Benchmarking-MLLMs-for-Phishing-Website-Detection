@@ -1,0 +1,25 @@
+{
+  "id": "site_0001",
+  "label": "phishing",
+  "inputs": {
+    "url": "https://bankx-secure.com/login",
+    "html": "<html><body><form id='login'><input type='password'/></form></body></html>",
+    "image_path": "examples/sample_dataset/site_0001.png"
+  },
+  "annotated_evidence": {
+    "url_indicators": [
+      "bankx-secure.com/login"
+    ],
+    "dom_indicators": [
+      "form#login"
+    ],
+    "image_indicators": [
+      [
+        10,
+        10,
+        100,
+        60
+      ]
+    ]
+  }
+}

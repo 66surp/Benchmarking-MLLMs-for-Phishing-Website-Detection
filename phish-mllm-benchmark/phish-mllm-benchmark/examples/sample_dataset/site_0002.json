@@ -1,0 +1,14 @@
+{
+  "id": "site_0002",
+  "label": "legit",
+  "inputs": {
+    "url": "https://www.example.com/",
+    "html": "<html><body><h1>Welcome</h1></body></html>",
+    "image_path": "examples/sample_dataset/site_0002.png"
+  },
+  "annotated_evidence": {
+    "url_indicators": [],
+    "dom_indicators": [],
+    "image_indicators": []
+  }
+}
